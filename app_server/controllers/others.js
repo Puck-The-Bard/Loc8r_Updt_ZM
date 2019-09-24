@@ -8,6 +8,16 @@ const about = (req, res) => {
   );
 };
 
+const pizza = (req, res) => {
+  res.render('generic-text',
+    {
+      title: 'A new pizza page',
+      content: 'A new page dedicated to our entirely pizza centric outlook on the world'
+    }
+  );
+};
+
 module.exports = {
-  about
+  about,
+  pizza
 };
