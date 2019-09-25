@@ -9,21 +9,21 @@ const homelist = (req, res) => {
       sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
       locations: [
         {
-          name: 'La Bella',
+          name: 'Hot bean water',
           address: '302 23rd street, Reading, RG6 1PS',
           rating: 3,
           facilities: ['Hot drinks', 'Food', 'Premium wifi'],
           distance: '100m'
         },
         {
-          name: 'Dominos',
+          name: 'We got brown water loaded with Caffeen',
           address: 'Over by United, Reading, RG6 1PS',
           rating: 4,
           facilities: ['Hot drinks', 'Food', 'Premium wifi'],
           distance: '200m'
         },
         {
-          name: 'Pizza Hut',
+          name: 'It\'s some coffe I guess',
           address: '802 23rd street, Reading, RG6 1PS',
           rating: 2,
           facilities: ['Food', 'Premium wifi'],
@@ -96,6 +96,9 @@ const addReview = (req, res) => {
     }
   );
 };
+
+
+
 
 module.exports = {
   homelist,
