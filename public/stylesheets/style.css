@@ -59,6 +59,7 @@ legend {
   margin-right: -16px;
   margin-left: -16px;
   margin-bottom: 0.5em;
+
 }
 
 .badge-default, .btn-primary {
@@ -104,4 +105,19 @@ body {
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
   background-color: #108a93;
+}
+
+.fa-star.red
+{
+  color: red;
+}
+
+.fa-star.yellow
+{
+  color: yellow;
+}
+
+.fa-star.green 
+{
+  color: green;
 }
